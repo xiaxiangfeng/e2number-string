@@ -1,11 +1,20 @@
+class e2numberStr {
 
+    num: number;
+
+    constructor(num: number) {
+        this.num = num
+    }
+
+    
+}
 
 
 
 
 
 //科学计数法转换成数字字符串（超大数会有精度问题）
-function e2numberStr(num) {
+/*function e2numberStr(num) {
     let res = num
     if(typeof num === 'number'){
         const strNum = num.toString()
@@ -28,4 +37,4 @@ function e2numberStr(num) {
         console.warn('e2numberStr() warn:参数不是一个数字')
     }
     return res
-}
+}*/
