@@ -16,7 +16,7 @@ module.exports = {
       config.build.assetsPublicPath : config.dev.assetsPublicPath
   },
   resolve: {
-    extensions: ['.js', '.json'],
+    extensions: ['.js', '.json', '.ts', '.tsx'],
     alias: {
       '@': resolve('src')
     }
@@ -35,6 +35,10 @@ module.exports = {
       test: /\.js$/,
       loader: 'babel-loader',
       include: [resolve('src'), resolve('test')]
+    },
+    { 
+      test: /\.tsx?$/, 
+      loader: 'ts-loader' 
     }
     ]
   }

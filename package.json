@@ -1,7 +1,7 @@
 {
   "name": "id-card-validator",
-  "url" : "https://github.com/xiaxiangfeng/id-card-validator/issues",
-  "email" : "876029169@qq.com",
+  "url": "https://github.com/xiaxiangfeng/id-card-validator/issues",
+  "email": "876029169@qq.com",
   "version": "1.0.9",
   "description": "中国身份证号验证(内地)",
   "author": "xiaxiangfeng",
@@ -64,6 +64,8 @@
     "shelljs": "^0.7.6",
     "sinon": "^2.1.0",
     "sinon-chai": "^2.8.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
     "webpack": "^2.6.1",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-merge": "^4.1.0"
