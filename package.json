@@ -16,7 +16,7 @@
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js",
     "lint": "eslint --ext .js src test/unit/specs test/e2e/specs",
-    "prepublish": "babel src -d lib"
+    "prepublish": "tsc src -d lib"
   },
   "dependencies": {
     "moment": "^2.18.1"

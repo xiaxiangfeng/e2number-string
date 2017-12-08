@@ -1,11 +1,9 @@
-import { validator } from '@/idCardValidator'
-import area from '@/areaNumber'
+import E2num from '@/e2number.ts'
 
-const oId = document.getElementById('idCard')
+const oId = document.getElementById('e_num_str')
 const submit = document.getElementById('submit')
 submit.addEventListener('click', function () {
-  const id = oId.value
-  validator.validate(id, area)
-  alert(validator.errorMessage)
-  console.log(validator.info)
+  const val = Number(oId.value)
+  const e2Num = new E2num(val)
+  alert(e2Num.e2n())
 })
