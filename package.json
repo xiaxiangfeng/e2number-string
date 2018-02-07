@@ -6,7 +6,7 @@
   "description": "",
   "author": "xiaxiangfeng",
   "private": false,
-  "main": "lib/idCardValidator.js",
+  "main": "lib/e2number.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/xiaxiangfeng/e2number-string"
