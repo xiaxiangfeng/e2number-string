@@ -1,25 +1,24 @@
 {
   "name": "id-card-validator",
-  "url": "https://github.com/xiaxiangfeng/id-card-validator/issues",
+  "url": "https://github.com/xiaxiangfeng/e2number-string/issues",
   "email": "876029169@qq.com",
-  "version": "1.0.9",
-  "description": "中国身份证号验证(内地)",
+  "version": "1.0.0",
+  "description": "",
   "author": "xiaxiangfeng",
   "private": false,
   "main": "lib/idCardValidator.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xiaxiangfeng/id-card-validator"
+    "url": "https://github.com/xiaxiangfeng/e2number-string"
   },
   "scripts": {
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js",
     "lint": "eslint --ext .js src test/unit/specs test/e2e/specs",
-    "prepublish": "tsc src -d lib"
+    "prepublish": "tsc"
   },
   "dependencies": {
-    "moment": "^2.18.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

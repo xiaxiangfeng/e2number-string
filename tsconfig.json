@@ -1,5 +1,10 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
+      "removeComments": true,
+      "outDir": "lib",
       "sourceMap": true
-    }
-  }
+  },
+  "files": [
+    "src/e2number.ts"
+  ]
+}
