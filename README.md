@@ -7,7 +7,7 @@
 ## 从NPM下载包
 
 ``` npm
-npm i 
+npm i e2number-string
 ```
 
 ## 使用实例
